@@ -27,11 +27,11 @@ public class Latihan22 {
     
         if (diameter>=0) {
             jari2 = diameter/2;
-            System.out.println("Jari-jari lingkaran :" + jari2);
+            System.out.println("Jari-jari lingkaran :" + jari2 + "cm");
             luas=phi*Math.pow(jari2, pangkat);
-            System.out.println("Luas lingkaran :" + luas);
+            System.out.println("Luas lingkaran :" + luas + "cm");
             keliling=phi * diameter;
-            System.out.println("Keliling lingkaran :" + keliling);
+            System.out.println("Keliling lingkaran :" + keliling + "cm");
         }
 
     }
